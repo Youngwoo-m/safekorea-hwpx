@@ -1,0 +1,13 @@
+*.bak
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+qa/
+rendered/
+work/
+private/
+source-originals/
+assets/manuals-anonymized/**/*_비식별.hwpx

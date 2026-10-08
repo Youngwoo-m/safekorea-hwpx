@@ -1,0 +1,5 @@
+interface:
+  display_name: "안전한국훈련 HWPX"
+  short_description: "안전한국훈련 문서 작성 및 매뉴얼 정합성 검토"
+  brand_color: "#1F4E79"
+  default_prompt: "Use $safekorea-hwpx with $hwpx to create, revise, and validate an anonymized Korean Safety Korea exercise HWPX document."
