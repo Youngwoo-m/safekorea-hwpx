@@ -26,7 +26,7 @@ $safekorea-hwpx와 $hwpx를 사용하여 2026년 공공기관 안전한국훈련
 
 - `assets/official-guidance`: 공개된 행정안전부 가이드북·평가지표 설명자료
 - `assets/templates`: 공식 빈 서식
-- `assets/examples/goesan`: 괴산군 산불·도로재난 복합훈련을 바탕으로 새로 작성한 비식별 요약 샘플 HWPX 3종
+- `assets/examples/county-example`: 00군 산불·도로재난 복합훈련을 바탕으로 새로 작성한 비식별 요약 샘플 HWPX 3종
 - `assets/manuals-anonymized`: 재난유형별로 `위기관리 표준매뉴얼`, `위기대응 실무매뉴얼`, `현장조치 행동매뉴얼`의 3단계로 분류한 비식별 자료
 - `references`: 근거 적용, 문서 작성, 정합성, 비식별화, 품질검사 기준
 - `scripts`: HWPX 비식별화와 민감정보 검사 도구

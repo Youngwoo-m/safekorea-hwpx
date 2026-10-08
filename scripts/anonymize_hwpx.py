@@ -99,7 +99,7 @@ def main() -> int:
                     text, hits = sanitize_text(text, mapping)
                     replacements += hits
                     if info.filename.lower().endswith(("content.hpf", "meta.xml", "settings.xml")):
-                        text = re.sub(r"(<[^>]*(?:creator|lastModifiedBy|author)[^>]*>).*?(</[^>]+>)", r"\1[작성자]\2", text, flags=re.I | re.S)
+                        text = re.sub(r'(<opf:meta name="(?:creator|lastsaveby|author|lastModifiedBy)"[^>]*[^/]>)[^<]*(</opf:meta>)', r'\1[작성자]\2', text, flags=re.I)
                     data = text.encode("utf-8")
             elif args.blank_images and suffix in IMAGE_SUFFIXES:
                 try:
