@@ -47,6 +47,8 @@ description: Create, revise, review, and anonymize Korean Safety Korea Exercise 
 
 사용자가 제공한 기존 서식이 있으면 그 서식을 우선한다. 서식이 없으면 `assets/examples`의 비식별 예시에서 구조만 가져오고 기관별 사실은 새로 입력한다.
 
+현재 예시는 `assets/examples/goesan`의 괴산군 산불·도로재난 복합훈련 요약본 3종이다. 사용 전 해당 폴더의 `README.md`에서 출처, 비식별 범위, 원자료 간 불일치를 확인한다. 요약본을 승인된 전체 계획이나 그대로 제출할 완성본으로 취급하지 않는다.
+
 ## 문서 간 정합성
 
 다음 항목을 문서별로 대조한다.
